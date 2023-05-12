@@ -1,0 +1,113 @@
+@import 'vars';
+
+  body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .mobile-menu {
+    padding: 12px 24px 24px 24px;
+    top: 45px;
+    position: absolute;
+    display: none;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: var(--white);
+
+
+  }
+  .mobile-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    // margin-bottom: 24px;
+  }
+  .mobile-menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+  }
+  .mobile-menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+  }
+  .mobile-menu ul li {
+    margin-bottom: 24px;
+  }
+  .email {
+    font-size: var(--sm);
+    font-weight: 300 !important;
+  }
+  .sign-out {
+    font-size: var(--sm);
+    color: var(--hospital-green) !important;
+  }
+
+  @media (max-width: 640px) {
+    .mobile-menu {
+    display: inline-block;
+    }
+  }
+
+  // MenuMobile.scss
+  
+  // @import 'vars';
+  
+  // .mobile-menu {
+  // background: var(--white);
+  // position: absolute; /* add styles clase 19*/
+  // top: 45px; /* add styles clase 19*/
+  // left: 0;
+  // width: 100%;
+  // padding: 12px 24px 24px 24px;
+  // /* transition: 400ms; */
+  // display: none;
+  // z-index: 3;
+  // }
+  
+  // .mobile-menu a{
+  // text-decoration: none;
+  // color: var(--black);
+  // font-weight: bold;
+  // }
+  
+  // .mobile-menu ul:not(.email-1){
+  // padding: 0;
+  // margin: 24px 0 0;
+  // list-style: none;
+  // }
+  
+  // .mobile-menu ul:nth-child(1){
+  // border-bottom: 1px solid var(--very-light-pink);
+  // }
+  
+  // .mobile-menu ul li{
+  // margin-bottom: 22px;
+  // }
+  
+  // .mobile-menu .email{
+  // font-size: var(--sm);
+  // font-weight: 300;
+  // }
+  
+  // .mobile-menu .sign-out{
+  // font-size: var(--sm);
+  // color: var(--hospital-green);
+  // }
+  
+  // .email-1, #exp, #exp-1{
+  // margin-bottom: 0;
+  // }
+  
+  // .email-1{
+  // padding: 0;
+  // margin: 70px 0 0;
+  // list-style: none;
+  // }
+  
+  // @media (max-width: 640px) {
+  // .mobile-menu {
+  // display: inline-block;
+  // }
+  
+  // }
+  

@@ -1,0 +1,17 @@
+:root {
+	--white: #FFFFFF;
+	--black: #000000;
+	--very-light-pink: #C7C7C7;
+	--text-input-field: #F7F7F7;
+	--hospital-green: #ACD9B2;
+	--hospital-green: #ACD9B2;
+	// --hover-red-filter: rgb(255, 19, 19);
+	--hover-green-filter: invert(95%) sepia(3%) saturate(3110%) hue-rotate(65deg) brightness(90%) contrast(87%);
+
+	// --hover-red-filter: filter: invert(95%) sepia(3%) saturate(3110%) hue-rotate(65deg) brightness(90%) contrast(87%);
+	// filter: invert(95%) sepia(3%) saturate(3110%) hue-rotate(65deg) brightness(90%) contrast(87%);
+
+	--sm: 14px;
+	--md: 16px;
+	--lg: 18px;
+}
